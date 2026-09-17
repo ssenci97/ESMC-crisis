@@ -1,0 +1,7 @@
+proteome_id	order	genus	exact_species	label	ncbi_taxonomy   group
+UP000007062	Diptera	Anopheles	An. gambiae	gambiae	7165    anopheles
+UP000008820	Diptera	Aedes	Ae. aegypti	aegypti	7159    aedes
+UP000069940	Diptera	Aedes	Ae. albopictus	albopictus	7160    aedes
+UP000000803	Diptera	Drosophila	D. melanogaster	melanogaster	7227    fruitfly
+UP001652628	Diptera	Drosophila	D. suzukii	suzukii	28628   fruitfly
+UP001152798	Hemiptera	Nezara	N. viridula	viridula	85309   stinkbug

@@ -1,0 +1,438 @@
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Task ID:     9
+[SLURM-INFO] Task ID:     8
+[SLURM-INFO] Task ID:     10
+[SLURM-INFO] Node:        genoa002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Task ID:     4
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Task ID:     7
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Master ID:   1658076
+[SLURM-INFO] Task ID:     5
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Task ID:     3
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] Task ID:     1
+[SLURM-INFO] Task ID:     0
+[SLURM-INFO] Task ID:     2
+[SLURM-INFO] Task ID:     6
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:40:10 CEST 2026
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included: data/reps/aedes_reps.npz (157439 KiB)
+4638 KiB)
+[SLURM-INFO] Included: data/reps/aedes_reps.npz (157439 KiB)
+4638 KiB)
+[SLURM-INFO] Included: data/reps/aedes_reps.npz (157439 KiB)
+iB)
+[SLURM-INFO] Included: data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included: data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included: data/reps/albopictus_reps.npz (96592 KiB)
+75161 KiB)
+[SLURM-INFO] Included: data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included: data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included: data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+B)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+B)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+B)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+ KiB)
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+ KiB)
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (10) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (9) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+(5). Exiting with success.
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included: data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included: data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included: data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included: data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included: data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included: data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included: data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included: data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included: data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included: data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (7) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] Skipped (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (6) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] Processing input: data/reps/albopictus_reps.npz
+[SLURM-INFO] Processing input: data/reps/drosophila_reps.npz
+[SLURM-INFO] Processing input: data/reps/aedes_reps.npz
+[SLURM-INFO] Processing input: data/reps/stinkbug_reps.npz
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (5) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] Processing input: data/reps/suzukii_reps.npz
+[SLURM-INFO] Target base: albopictus
+[SLURM-INFO] Target base: drosophila
+[SLURM-INFO] Target base: aedes
+[SLURM-INFO] Target base: stinkbug
+[SLURM-INFO] Target base: suzukii
+[SLURM-INFO] Starting t-SNE for albopictus...
+[SLURM-INFO] Starting t-SNE for drosophila...
+[SLURM-INFO] Starting t-SNE for aedes...
+[SLURM-INFO] Starting t-SNE for stinkbug...
+[SLURM-INFO] Starting t-SNE for suzukii...
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Job Name:    dim64GB
+[SLURM-INFO] Job Name:    dim64GB
+[SLURM-INFO] Job Name:    dim64GB
+[SLURM-INFO] Job Name:    dim64GB
+[SLURM-INFO] Job Name:    dim64GB
+[SLURM-INFO] Job Name:    dim64GB
+[SLURM-INFO] Job Name:    dim64GB
+[SLURM-INFO] Master ID:   1658088
+[SLURM-INFO] Master ID:   1658088
+hpc.rd.areasciencepark.it
+[SLURM-INFO] Master ID:   1658088
+hpc.rd.areasciencepark.it
+[SLURM-INFO] Master ID:   1658088
+hpc.rd.areasciencepark.it
+[SLURM-INFO] Master ID:   1658088
+hpc.rd.areasciencepark.it
+[SLURM-INFO] Master ID:   1658088
+17 19:41:19 CEST 2026
+[SLURM-INFO] Master ID:   1658088
+17 19:41:19 CEST 2026
+[SLURM-INFO] Task ID:     0
+u Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] Task ID:     4
+u Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] Task ID:     3
+...................................
+[SLURM-INFO] Task ID:     2
+...................................
+[SLURM-INFO] Task ID:     5
+...................................
+[SLURM-INFO] Task ID:     6
+...................................
+[SLURM-INFO] Task ID:     1
+[SLURM-INFO] Node:        epyc002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Started at:  Thu Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] Started at:  Thu Sep 17 19:41:19 CEST 2026
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (10) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (7) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (9) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (8) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/aedes_reps.npz (157439 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/drosophila_reps.npz (149829 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/gambiae_reps.npz (54329 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Skipped (> 80MB): data/reps/stinkbug_reps.npz (140150 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (5) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (6) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Processing input: data/reps/halys_reps.npz
+[SLURM-INFO] Processing input: data/reps/melanogaster_reps.npz
+[SLURM-INFO] Target base: melanogaster
+[SLURM-INFO] Skipped (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Processing input: data/reps/viridula_reps.npz
+[SLURM-INFO] Processing input: data/reps/gambiae_reps.npz
+[SLURM-INFO] Target base: gambiae
+[SLURM-INFO] Target base: halys
+[SLURM-INFO] Starting t-SNE for melanogaster...
+[SLURM-INFO] Target base: viridula
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Starting t-SNE for gambiae...
+[SLURM-INFO] Starting t-SNE for halys...
+[SLURM-INFO] Starting t-SNE for viridula...
+[SLURM-INFO] Processing input: data/reps/aegypti_reps.npz
+[SLURM-INFO] Target base: aegypti
+[SLURM-INFO] Starting t-SNE for aegypti...
+2026-09-17 19:41:40,437 INFO loading data/reps/aedes_reps.npz
+z
+2026-09-17 19:41:40,437 INFO loading data/reps/viridula_reps.npz
+2026-09-17 19:41:40,437 INFO loading data/reps/stinkbug_reps.npz
+2026-09-17 19:41:40,437 INFO loading data/reps/melanogaster_reps.npz
+2026-09-17 19:41:40,437 INFO loading data/reps/aegypti_reps.npz
+pz
+2026-09-17 19:41:40,437 INFO loading data/reps/suzukii_reps.npz
+2026-09-17 19:41:40,998 INFO shape (14338, 960) dtype float32
+2026-09-17 19:41:41,036 INFO tsne to 2 components
+2026-09-17 19:41:41,140 INFO shape (19836, 960) dtype float32
+2026-09-17 19:41:41,153 INFO tsne to 2 components
+2026-09-17 19:41:41,217 INFO shape (20663, 960) dtype float32
+2026-09-17 19:41:41,221 INFO tsne to 2 components
+2026-09-17 19:41:41,255 INFO shape (19567, 960) dtype float32
+2026-09-17 19:41:41,259 INFO tsne to 2 components
+2026-09-17 19:41:41,371 INFO shape (23172, 960) dtype float32
+2026-09-17 19:41:41,389 INFO shape (25492, 960) dtype float32
+2026-09-17 19:41:41,409 INFO tsne to 2 components
+2026-09-17 19:41:41,448 INFO tsne to 2 components
+2026-09-17 19:41:41,561 INFO shape (19698, 960) dtype float32
+2026-09-17 19:41:41,565 INFO tsne to 2 components
+2026-09-17 19:41:42,850 INFO shape (40230, 960) dtype float32
+2026-09-17 19:41:42,897 INFO tsne to 2 components
+2026-09-17 19:41:42,976 INFO shape (43008, 960) dtype float32
+2026-09-17 19:41:43,089 INFO shape (45190, 960) dtype float32
+2026-09-17 19:41:43,128 INFO tsne to 2 components
+2026-09-17 19:41:43,138 INFO tsne to 2 components
+[2026-09-17T19:42:07.705] error: *** JOB 1658093 ON epyc002 CANCELLED AT 2026-09-17T19:42:07 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:07.705] error: *** JOB 1658091 ON epyc002 CANCELLED AT 2026-09-17T19:42:07 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:07.706] error: *** JOB 1658089 ON epyc002 CANCELLED AT 2026-09-17T19:42:07 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:07.707] error: *** JOB 1658092 ON epyc002 CANCELLED AT 2026-09-17T19:42:07 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:07.707] error: *** JOB 1658090 ON epyc002 CANCELLED AT 2026-09-17T19:42:07 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:15.137] error: *** JOB 1658078 ON genoa001 CANCELLED AT 2026-09-17T19:42:15 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:15.143] error: *** JOB 1658080 ON genoa001 CANCELLED AT 2026-09-17T19:42:15 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:15.137] error: *** JOB 1658079 ON genoa001 CANCELLED AT 2026-09-17T19:42:15 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:15.137] error: *** JOB 1658077 ON genoa001 CANCELLED AT 2026-09-17T19:42:15 DUE to SIGNAL Terminated ***
+[2026-09-17T19:42:15.139] error: *** JOB 1658081 ON genoa001 CANCELLED AT 2026-09-17T19:42:15 DUE to SIGNAL Terminated ***
