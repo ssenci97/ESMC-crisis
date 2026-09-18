@@ -1,7 +1,7 @@
-proteome_id	order	genus	exact_species	species	label	ncbi_taxonomy	group	alt_dw
-UP000008820	Diptera	Aedes	Ae.	aegypti	aegypti	7159	aedes	""
-UP000069940	Diptera	Aedes	Ae.	albopictus	albopictus	7160	aedes	""
-UP000000803	Diptera	Drosophila	D.	melanogaster	melanogaster	7227	drosophila	""
-UP001652628	Diptera	Drosophila	D.	suzukii	suzukii	28584	drosophila	""
-UP001152798	Hemiptera	Nezara	N.	viridula	viridula	85310	pentatomidae	""
-""	Hemiptera	Halyomorpha	H.	halys	halys	286706	pentatomidae	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/696/795/GCF_000696795.3_Hhal_1.1/GCF_000696795.3_Hhal_1.1_protein.faa.gz
+proteome_id	order	genus	exact_species	label	ncbi_taxonomy	group	alt_dw
+UP000008820	Diptera	Aedes	Ae. aegypti	aegypti	7159	aedes	""
+UP000069940	Diptera	Aedes	Ae. albopictus	albopictus	7160	aedes	""
+UP000000803	Diptera	Drosophila	D. melanogaster	melanogaster	7227	drosophila	""
+UP001652628	Diptera	Drosophila	D. suzukii	suzukii	28584	drosophila	""
+UP001152798	Hemiptera	Nezara	N. viridula	viridula	85310	pentatomidae	""
+""	Hemiptera	Halyomorpha	H. halys	halys	286706	pentatomidae	https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/696/795/GCF_000696795.3_Hhal_1.1/GCF_000696795.3_Hhal_1.1_protein.faa.gz

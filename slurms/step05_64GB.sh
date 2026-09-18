@@ -10,7 +10,7 @@
 #SBATCH --output=logs/dimred.log
 #SBATCH --open-mode=append
 
-mkdir -p slurms/logs data/dim_red
+mkdir -p logs data/dim_red
 set -e
 
 echo "[SLURM-INFO] .................................................."
@@ -26,7 +26,6 @@ conda activate esm_env
 
 echo "[SLURM-INFO] Active Python: $(which python3)"
 
-
 # Dynamically find matching files and filter for size > 80MB (81920 KiB)
 files=()
 for f in data/reps/*_reps.npz; do
@@ -35,16 +34,14 @@ for f in data/reps/*_reps.npz; do
     size_kb=$(du -k "$f" | cut -f1)
     if [ "$size_kb" -gt 81920 ]; then
         files+=("$f")
-        echo "[SLURM-INFO] Included: $f (${size_kb} KiB) > 80MB"
-    else
-        echo " ... \n"
+        echo "[SLURM-INFO] Included (> 80MB): $f (${size_kb} KiB)"
     fi
 done
 
 total_files=${#files[@]}
 
 if [ "$total_files" -eq 0 ]; then
-    echo "[SLURM-INFO] ERROR: No files found matching criteria (<= 80MB)! Exiting."
+    echo "[SLURM-INFO] ERROR: No matching files found (> 80MB)! Exiting."
     exit 1
 fi
 
@@ -55,36 +52,52 @@ fi
 
 input_file="${files[$SLURM_ARRAY_TASK_ID]}"
 
-# Extract the base name (e.g., 'aegypti' from 'data/reps/aegypti_reps.npz')
+# Extract base name (e.g., 'aegypti' from 'data/reps/aegypti_reps.npz')
 filename=$(basename "$input_file")
 current_base="${filename%_reps.npz}"
-
-tsne_out="data/dim_red/${current_base}_tsne.npz"
-umap_out="data/dim_red/${current_base}_umap.npz"
 
 echo "[SLURM-INFO] Processing input: $input_file"
 echo "[SLURM-INFO] Target base: $current_base"
 
-# Skip if targets already exist
-if [ -f "$tsne_out" ] && [ -f "$umap_out" ]; then
-    echo "[SLURM-INFO] SUCCESS: Both $tsne_out and $umap_out already exist. Skipping run."
+# Skip entire task early if all 4 target files (2D & 3D for both t-SNE and UMAP) exist
+if [ -f "data/dim_red/${current_base}_2D_tsne.npz" ] && \
+   [ -f "data/dim_red/${current_base}_2D_umap.npz" ] && \
+   [ -f "data/dim_red/${current_base}_3D_tsne.npz" ] && \
+   [ -f "data/dim_red/${current_base}_3D_umap.npz" ]; then
+    echo "[SLURM-INFO] SUCCESS: All 2D and 3D output files already exist for $current_base. Skipping job."
     exit 0
 fi
 
-if [ -f "$tsne_out" ]; then
-    echo "[SLURM-INFO] SUCCESS: $tsne_out already exists. Skipping t-SNE."
-else
-    echo "[SLURM-INFO] Starting t-SNE for $current_base..."
-    python3 src/npz_tsne.py --npz "$input_file" --out "$tsne_out"
-fi
+# Loop over 2D and 3D dimensions
+for dim in 2 3; do
+    tsne_out="data/dim_red/${current_base}_${dim}D_tsne.npz"
+    umap_out="data/dim_red/${current_base}_${dim}D_umap.npz"
 
-if [ -f "$umap_out" ]; then
-    echo "[SLURM-INFO] SUCCESS: $umap_out already exists. Skipping UMAP."
-else
-    echo "[SLURM-INFO] Starting UMAP for $current_base..."
-    python3 src/npz_umap.py --npz "$input_file" --out "$umap_out"
-fi
+    # Skip current dimension iteration if both output files exist
+    if [ -f "$tsne_out" ] && [ -f "$umap_out" ]; then
+        echo "[SLURM-INFO] SUCCESS: Both $tsne_out and $umap_out already exist. Skipping ${dim}D run."
+        continue
+    fi
+
+    echo "[SLURM-INFO] --- Running ${dim}D reduction for ${current_base} ---"
+
+    # t-SNE execution check
+    if [ -f "$tsne_out" ]; then
+        echo "[SLURM-INFO] SUCCESS: $tsne_out already exists. Skipping t-SNE."
+    else
+        echo "[SLURM-INFO] Starting ${dim}D t-SNE for $current_base..."
+        python3 src/npz_tsne.py --npz "$input_file" --out "$tsne_out" --n_component "$dim"
+    fi
+
+    # UMAP execution check
+    if [ -f "$umap_out" ]; then
+        echo "[SLURM-INFO] SUCCESS: $umap_out already exists. Skipping UMAP."
+    else
+        echo "[SLURM-INFO] Starting ${dim}D UMAP for $current_base..."
+        python3 src/npz_umap.py --npz "$input_file" --out "$umap_out" --n_component "$dim"
+    fi
+done
 
 echo "[SLURM-INFO] .................................................."
-echo "[SLURM-INFO] Finished dimensionality reduction for $current_base on $(date)"
+echo "[SLURM-INFO] Finished 2D and 3D dimensionality reduction for $current_base on $(date)"
 echo "[SLURM-INFO] .................................................."

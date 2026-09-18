@@ -1,0 +1,7 @@
+[SLURM-INFO] Merging group 'drosophila' from [data/reps/melanogaster_reps.npz,data/reps/suzukii_reps.npz] into 'data/reps/drosophila_reps.npz'
+Successfully merged 2 files into data/reps/drosophila_reps.npz with shape (43008, 960)
+[SLURM-INFO] Merging group 'pentatomidae' from [data/reps/viridula_reps.npz,data/reps/halys_reps.npz] into 'data/reps/pentatomidae_reps.npz'
+Successfully merged 2 files into data/reps/pentatomidae_reps.npz with shape (40230, 960)
+[SLURM-INFO] Merging group 'aedes' from [data/reps/aegypti_reps.npz,data/reps/albopictus_reps.npz] into 'data/reps/aedes_reps.npz'
+Successfully merged 2 files into data/reps/aedes_reps.npz with shape (45190, 960)
+[SLURM-INFO] 20s 3160KB 2026-09-18 12:04:46

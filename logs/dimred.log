@@ -1,0 +1,551 @@
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Task ID:     10
+[SLURM-INFO] Node:        genoa002.hpc.rd.areasciencepark.it
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Task ID:     3
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Task ID:     6
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Job Name:    dim32GB
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Task ID:     4
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Task ID:     8
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Master ID:   1659534
+[SLURM-INFO] Task ID:     2
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Task ID:     7
+[SLURM-INFO] Task ID:     5
+[SLURM-INFO] Task ID:     1
+[SLURM-INFO] Task ID:     9
+[SLURM-INFO] Task ID:     0
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        genoa001.hpc.rd.areasciencepark.it
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] Started at:  Fri Sep 18 12:21:45 CEST 2026
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (10) exceeds total matching files (4). Exiting with success.
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Processing input: data/reps/viridula_reps.npz
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (6) exceeds total matching files (4). Exiting with success.
+[SLURM-INFO] Target base: viridula
+[SLURM-INFO] --- Running 2D reduction for viridula ---
+[SLURM-INFO] Starting 2D t-SNE for viridula...
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (8) exceeds total matching files (4). Exiting with success.
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (4) exceeds total matching files (4). Exiting with success.
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/aegypti_reps.npz (74638 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/halys_reps.npz (78617 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/melanogaster_reps.npz (75161 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (7) exceeds total matching files (4). Exiting with success.
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Processing input: data/reps/melanogaster_reps.npz
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (9) exceeds total matching files (4). Exiting with success.
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Included (<= 80MB): data/reps/viridula_reps.npz (74142 KiB)
+[SLURM-INFO] Processing input: data/reps/aegypti_reps.npz
+[SLURM-INFO] Target base: melanogaster
+[SLURM-INFO] Processing input: data/reps/halys_reps.npz
+[SLURM-INFO] Target base: halys
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (5) exceeds total matching files (4). Exiting with success.
+[SLURM-INFO] Target base: aegypti
+[SLURM-INFO] --- Running 2D reduction for melanogaster ---
+[SLURM-INFO] --- Running 2D reduction for halys ---
+[SLURM-INFO] --- Running 2D reduction for aegypti ---
+[SLURM-INFO] Starting 2D t-SNE for melanogaster...
+[SLURM-INFO] Starting 2D t-SNE for halys...
+[SLURM-INFO] Starting 2D t-SNE for aegypti...
+2026-09-18 12:21:47,229 [PYTHON-INFO] loading data/reps/viridula_reps.npz
+2026-09-18 12:21:47,432 [PYTHON-INFO] shape (19567, 960) dtype float32
+2026-09-18 12:21:47,439 [PYTHON-INFO] tsne to 2 components
+2026-09-18 12:21:47,515 [PYTHON-INFO] loading data/reps/aegypti_reps.npz
+2026-09-18 12:21:47,539 [PYTHON-INFO] loading data/reps/halys_reps.npz
+2026-09-18 12:21:47,539 [PYTHON-INFO] loading data/reps/melanogaster_reps.npz
+2026-09-18 12:21:47,650 [PYTHON-INFO] shape (19698, 960) dtype float32
+2026-09-18 12:21:47,670 [PYTHON-INFO] shape (20663, 960) dtype float32
+2026-09-18 12:21:47,696 [PYTHON-INFO] shape (19836, 960) dtype float32
+2026-09-18 12:21:47,706 [PYTHON-INFO] tsne to 2 components
+2026-09-18 12:21:47,709 [PYTHON-INFO] tsne to 2 components
+2026-09-18 12:21:47,712 [PYTHON-INFO] tsne to 2 components
+2026-09-18 12:23:39,048 [PYTHON-INFO] saved data/dim_red/aegypti_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for aegypti...
+2026-09-18 12:23:44,636 [PYTHON-INFO] saved data/dim_red/melanogaster_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for melanogaster...
+2026-09-18 12:23:45,127 [PYTHON-INFO] loading data/reps/aegypti_reps.npz
+2026-09-18 12:23:45,279 [PYTHON-INFO] shape (19698, 960) dtype float32
+2026-09-18 12:23:45,284 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:23:47,393 [PYTHON-INFO] saved data/dim_red/halys_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for halys...
+2026-09-18 12:23:48,293 [PYTHON-INFO] saved data/dim_red/viridula_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for viridula...
+2026-09-18 12:23:50,094 [PYTHON-INFO] loading data/reps/melanogaster_reps.npz
+2026-09-18 12:23:50,212 [PYTHON-INFO] shape (19836, 960) dtype float32
+2026-09-18 12:23:50,229 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:23:52,804 [PYTHON-INFO] loading data/reps/halys_reps.npz
+2026-09-18 12:23:52,940 [PYTHON-INFO] shape (20663, 960) dtype float32
+2026-09-18 12:23:52,974 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:23:53,779 [PYTHON-INFO] loading data/reps/viridula_reps.npz
+2026-09-18 12:23:53,898 [PYTHON-INFO] shape (19567, 960) dtype float32
+2026-09-18 12:23:53,902 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:24:27,868 [PYTHON-INFO] trustworthiness: 0.9732
+2026-09-18 12:24:27,902 [PYTHON-INFO] saved data/dim_red/aegypti_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for aegypti ---
+[SLURM-INFO] Starting 3D t-SNE for aegypti...
+2026-09-18 12:24:29,177 [PYTHON-INFO] loading data/reps/aegypti_reps.npz
+2026-09-18 12:24:29,309 [PYTHON-INFO] shape (19698, 960) dtype float32
+2026-09-18 12:24:29,312 [PYTHON-INFO] tsne to 3 components
+2026-09-18 12:24:33,722 [PYTHON-INFO] trustworthiness: 0.9660
+2026-09-18 12:24:33,762 [PYTHON-INFO] saved data/dim_red/melanogaster_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for melanogaster ---
+[SLURM-INFO] Starting 3D t-SNE for melanogaster...
+2026-09-18 12:24:35,111 [PYTHON-INFO] loading data/reps/melanogaster_reps.npz
+2026-09-18 12:24:35,294 [PYTHON-INFO] shape (19836, 960) dtype float32
+2026-09-18 12:24:35,305 [PYTHON-INFO] tsne to 3 components
+2026-09-18 12:24:36,762 [PYTHON-INFO] trustworthiness: 0.9703
+2026-09-18 12:24:36,816 [PYTHON-INFO] saved data/dim_red/viridula_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for viridula ---
+[SLURM-INFO] Starting 3D t-SNE for viridula...
+2026-09-18 12:24:38,397 [PYTHON-INFO] loading data/reps/viridula_reps.npz
+2026-09-18 12:24:38,545 [PYTHON-INFO] shape (19567, 960) dtype float32
+2026-09-18 12:24:38,583 [PYTHON-INFO] tsne to 3 components
+2026-09-18 12:24:38,752 [PYTHON-INFO] trustworthiness: 0.9727
+2026-09-18 12:24:38,777 [PYTHON-INFO] saved data/dim_red/halys_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for halys ---
+[SLURM-INFO] Starting 3D t-SNE for halys...
+2026-09-18 12:24:40,415 [PYTHON-INFO] loading data/reps/halys_reps.npz
+2026-09-18 12:24:40,544 [PYTHON-INFO] shape (20663, 960) dtype float32
+2026-09-18 12:24:40,566 [PYTHON-INFO] tsne to 3 components
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Job Name:    dim64GB
+.............................
+[SLURM-INFO] Job Name:    dim64GB
+.............................
+[SLURM-INFO] Job Name:    dim64GB
+.............................
+[SLURM-INFO] Master ID:   1659563
+hpc.rd.areasciencepark.it
+[SLURM-INFO] Master ID:   1659563
+hpc.rd.areasciencepark.it
+[SLURM-INFO] Task ID:     10
+..................................
+[SLURM-INFO] Task ID:     9
+i Sep 18 12:26:18 CEST 2026
+.......
+[SLURM-INFO] Node:        epyc004.hpc.rd.areasciencepark.it
+[SLURM-INFO] Job Name:    dim64GB
+hpc.rd.areasciencepark.it
+...
+[SLURM-INFO] Started at:  Fri Sep 18 12:26:18 CEST 2026
+[SLURM-INFO] Started at:  Fri Sep 18 12:26:18 CEST 2026
+.......
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Master ID:   1659563
+[SLURM-INFO] Master ID:   1659563
+[SLURM-INFO] Master ID:   1659563
+[SLURM-INFO] Started at:  Fri Sep 18 12:26:18 CEST 2026
+[SLURM-INFO] Master ID:   1659563
+[SLURM-INFO] Master ID:   1659563
+[SLURM-INFO] Task ID:     5
+[SLURM-INFO] Task ID:     8
+[SLURM-INFO] Task ID:     7
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Task ID:     4
+[SLURM-INFO] Task ID:     3
+[SLURM-INFO] Node:        epyc003.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc003.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc003.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc003.hpc.rd.areasciencepark.it
+[SLURM-INFO] Node:        epyc003.hpc.rd.areasciencepark.it
+/envs/esm_env/bin/python3
+[SLURM-INFO] Included (> 80MB): data/reps/aedes_reps.npz (157438 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Started at:  Fri Sep 18 12:26:18 CEST 2026
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] ..................................................
+[SLURM-INFO] --- Running 2D reduction for drosophila ---
+[SLURM-INFO] Starting 2D t-SNE for drosophila...
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (> 80MB): data/reps/aedes_reps.npz (157438 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Processing input: data/reps/aedes_reps.npz
+[SLURM-INFO] Target base: aedes
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] --- Running 2D reduction for aedes ---
+[SLURM-INFO] Starting 2D t-SNE for aedes...
+[SLURM-INFO] Included (> 80MB): data/reps/aedes_reps.npz (157438 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Processing input: data/reps/albopictus_reps.npz
+[SLURM-INFO] Target base: albopictus
+[SLURM-INFO] --- Running 2D reduction for albopictus ---
+[SLURM-INFO] Starting 2D t-SNE for albopictus...
+2026-09-18 12:26:20,338 [PYTHON-INFO] loading data/reps/drosophila_reps.npz
+2026-09-18 12:26:21,374 [PYTHON-INFO] loading data/reps/aedes_reps.npz
+2026-09-18 12:26:21,424 [PYTHON-INFO] loading data/reps/albopictus_reps.npz
+2026-09-18 12:26:21,653 [PYTHON-INFO] shape (25492, 960) dtype float32
+2026-09-18 12:26:21,664 [PYTHON-INFO] tsne to 2 components
+2026-09-18 12:26:22,837 [PYTHON-INFO] shape (43008, 960) dtype float32
+2026-09-18 12:26:22,841 [PYTHON-INFO] tsne to 2 components
+2026-09-18 12:26:24,122 [PYTHON-INFO] shape (45190, 960) dtype float32
+2026-09-18 12:26:24,199 [PYTHON-INFO] tsne to 2 components
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (> 80MB): data/reps/aedes_reps.npz (157438 KiB)
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+in/python3
+[SLURM-INFO] Active Python: /u/area/ssenci/scratch/miniconda/envs/esm_env/bin/python3
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+in/python3
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+/python3
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+/python3
+[SLURM-INFO] Included (> 80MB): data/reps/aedes_reps.npz (157438 KiB)
+
+[SLURM-INFO] Included (> 80MB): data/reps/aedes_reps.npz (157438 KiB)
+
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (9) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (10) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] Included (> 80MB): data/reps/aedes_reps.npz (157438 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/aedes_reps.npz (157438 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/albopictus_reps.npz (96592 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/drosophila_reps.npz (149827 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/pentatomidae_reps.npz (140147 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Included (> 80MB): data/reps/suzukii_reps.npz (87801 KiB)
+[SLURM-INFO] Processing input: data/reps/pentatomidae_reps.npz
+[SLURM-INFO] Processing input: data/reps/suzukii_reps.npz
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (7) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (8) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (6) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] SLURM_ARRAY_TASK_ID (5) exceeds total matching files (5). Exiting with success.
+[SLURM-INFO] Target base: pentatomidae
+[SLURM-INFO] Target base: suzukii
+[SLURM-INFO] --- Running 2D reduction for pentatomidae ---
+[SLURM-INFO] --- Running 2D reduction for suzukii ---
+[SLURM-INFO] Starting 2D t-SNE for pentatomidae...
+[SLURM-INFO] Starting 2D t-SNE for suzukii...
+2026-09-18 12:27:16,740 [PYTHON-INFO] loading data/reps/pentatomidae_reps.npz
+2026-09-18 12:27:16,740 [PYTHON-INFO] loading data/reps/suzukii_reps.npz
+2026-09-18 12:27:17,555 [PYTHON-INFO] shape (23172, 960) dtype float32
+2026-09-18 12:27:17,560 [PYTHON-INFO] tsne to 2 components
+2026-09-18 12:27:20,031 [PYTHON-INFO] shape (40230, 960) dtype float32
+2026-09-18 12:27:20,035 [PYTHON-INFO] tsne to 2 components
+2026-09-18 12:30:28,753 [PYTHON-INFO] saved data/dim_red/albopictus_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for albopictus...
+2026-09-18 12:30:37,483 [PYTHON-INFO] loading data/reps/albopictus_reps.npz
+2026-09-18 12:30:37,745 [PYTHON-INFO] shape (25492, 960) dtype float32
+2026-09-18 12:30:37,749 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:31:15,080 [PYTHON-INFO] saved data/dim_red/aegypti_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for aegypti...
+2026-09-18 12:31:20,396 [PYTHON-INFO] loading data/reps/aegypti_reps.npz
+2026-09-18 12:31:20,523 [PYTHON-INFO] shape (19698, 960) dtype float32
+2026-09-18 12:31:20,527 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:31:21,705 [PYTHON-INFO] saved data/dim_red/suzukii_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for suzukii...
+2026-09-18 12:31:41,136 [PYTHON-INFO] loading data/reps/suzukii_reps.npz
+2026-09-18 12:31:44,320 [PYTHON-INFO] shape (23172, 960) dtype float32
+2026-09-18 12:31:44,350 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:31:49,687 [PYTHON-INFO] saved data/dim_red/halys_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for halys...
+2026-09-18 12:31:52,273 [PYTHON-INFO] trustworthiness: 0.9759
+2026-09-18 12:31:52,341 [PYTHON-INFO] saved data/dim_red/albopictus_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for albopictus ---
+[SLURM-INFO] Starting 3D t-SNE for albopictus...
+2026-09-18 12:31:54,143 [PYTHON-INFO] loading data/reps/albopictus_reps.npz
+2026-09-18 12:31:54,374 [PYTHON-INFO] shape (25492, 960) dtype float32
+2026-09-18 12:31:54,377 [PYTHON-INFO] tsne to 3 components
+2026-09-18 12:31:55,053 [PYTHON-INFO] loading data/reps/halys_reps.npz
+2026-09-18 12:31:55,211 [PYTHON-INFO] shape (20663, 960) dtype float32
+2026-09-18 12:31:55,214 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:32:01,520 [PYTHON-INFO] saved data/dim_red/viridula_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for viridula...
+2026-09-18 12:32:03,455 [PYTHON-INFO] trustworthiness: 0.9853
+2026-09-18 12:32:03,480 [PYTHON-INFO] saved data/dim_red/aegypti_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for aegypti on Fri Sep 18 12:32:04 CEST 2026
+[SLURM-INFO] ..................................................
+2026-09-18 12:32:06,680 [PYTHON-INFO] saved data/dim_red/melanogaster_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for melanogaster...
+2026-09-18 12:32:07,017 [PYTHON-INFO] loading data/reps/viridula_reps.npz
+2026-09-18 12:32:07,137 [PYTHON-INFO] shape (19567, 960) dtype float32
+2026-09-18 12:32:07,151 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:32:12,192 [PYTHON-INFO] loading data/reps/melanogaster_reps.npz
+2026-09-18 12:32:12,325 [PYTHON-INFO] shape (19836, 960) dtype float32
+2026-09-18 12:32:12,329 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:32:41,030 [PYTHON-INFO] trustworthiness: 0.9852
+2026-09-18 12:32:41,089 [PYTHON-INFO] saved data/dim_red/halys_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for halys on Fri Sep 18 12:32:41 CEST 2026
+[SLURM-INFO] ..................................................
+2026-09-18 12:32:50,363 [PYTHON-INFO] trustworthiness: 0.9847
+2026-09-18 12:32:50,389 [PYTHON-INFO] saved data/dim_red/viridula_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for viridula on Fri Sep 18 12:32:50 CEST 2026
+[SLURM-INFO] ..................................................
+2026-09-18 12:32:56,195 [PYTHON-INFO] trustworthiness: 0.9823
+2026-09-18 12:32:56,234 [PYTHON-INFO] saved data/dim_red/melanogaster_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for melanogaster on Fri Sep 18 12:32:56 CEST 2026
+[SLURM-INFO] ..................................................
+2026-09-18 12:33:19,390 [PYTHON-INFO] trustworthiness: 0.9718
+2026-09-18 12:33:19,432 [PYTHON-INFO] saved data/dim_red/suzukii_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for suzukii ---
+[SLURM-INFO] Starting 3D t-SNE for suzukii...
+2026-09-18 12:33:21,225 [PYTHON-INFO] loading data/reps/suzukii_reps.npz
+2026-09-18 12:33:21,424 [PYTHON-INFO] shape (23172, 960) dtype float32
+2026-09-18 12:33:21,427 [PYTHON-INFO] tsne to 3 components
+2026-09-18 12:34:22,808 [PYTHON-INFO] saved data/dim_red/drosophila_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for drosophila...
+2026-09-18 12:34:30,732 [PYTHON-INFO] loading data/reps/drosophila_reps.npz
+2026-09-18 12:34:33,276 [PYTHON-INFO] shape (43008, 960) dtype float32
+2026-09-18 12:34:33,280 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:35:05,995 [PYTHON-INFO] saved data/dim_red/aedes_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for aedes...
+2026-09-18 12:35:14,307 [PYTHON-INFO] loading data/reps/aedes_reps.npz
+2026-09-18 12:35:16,966 [PYTHON-INFO] shape (45190, 960) dtype float32
+2026-09-18 12:35:16,979 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:35:39,262 [PYTHON-INFO] saved data/dim_red/pentatomidae_2D_tsne.npz
+[SLURM-INFO] Starting 2D UMAP for pentatomidae...
+2026-09-18 12:35:48,955 [PYTHON-INFO] loading data/reps/pentatomidae_reps.npz
+2026-09-18 12:35:52,010 [PYTHON-INFO] shape (40230, 960) dtype float32
+2026-09-18 12:35:52,122 [PYTHON-INFO] method=umap n_components=2 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:37:20,506 [PYTHON-INFO] trustworthiness: 0.9743
+2026-09-18 12:37:20,566 [PYTHON-INFO] saved data/dim_red/drosophila_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for drosophila ---
+[SLURM-INFO] Starting 3D t-SNE for drosophila...
+2026-09-18 12:37:22,327 [PYTHON-INFO] loading data/reps/drosophila_reps.npz
+2026-09-18 12:37:24,817 [PYTHON-INFO] shape (43008, 960) dtype float32
+2026-09-18 12:37:24,817 [PYTHON-INFO] tsne to 3 components
+2026-09-18 12:38:15,770 [PYTHON-INFO] trustworthiness: 0.9769
+2026-09-18 12:38:15,891 [PYTHON-INFO] saved data/dim_red/aedes_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for aedes ---
+[SLURM-INFO] Starting 3D t-SNE for aedes...
+2026-09-18 12:38:17,758 [PYTHON-INFO] loading data/reps/aedes_reps.npz
+2026-09-18 12:38:20,425 [PYTHON-INFO] shape (45190, 960) dtype float32
+2026-09-18 12:38:20,492 [PYTHON-INFO] tsne to 3 components
+2026-09-18 12:40:11,074 [PYTHON-INFO] trustworthiness: 0.9744
+2026-09-18 12:40:11,146 [PYTHON-INFO] saved data/dim_red/pentatomidae_2D_umap.npz
+[SLURM-INFO] --- Running 3D reduction for pentatomidae ---
+[SLURM-INFO] Starting 3D t-SNE for pentatomidae...
+2026-09-18 12:40:13,143 [PYTHON-INFO] loading data/reps/pentatomidae_reps.npz
+2026-09-18 12:40:15,615 [PYTHON-INFO] shape (40230, 960) dtype float32
+2026-09-18 12:40:15,624 [PYTHON-INFO] tsne to 3 components
+2026-09-18 12:45:54,496 [PYTHON-INFO] saved data/dim_red/albopictus_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for albopictus...
+2026-09-18 12:46:03,075 [PYTHON-INFO] loading data/reps/albopictus_reps.npz
+2026-09-18 12:46:03,300 [PYTHON-INFO] shape (25492, 960) dtype float32
+2026-09-18 12:46:03,300 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:47:18,374 [PYTHON-INFO] trustworthiness: 0.9875
+2026-09-18 12:47:18,414 [PYTHON-INFO] saved data/dim_red/albopictus_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for albopictus on Fri Sep 18 12:47:19 CEST 2026
+[SLURM-INFO] ..................................................
+2026-09-18 12:48:59,967 [PYTHON-INFO] saved data/dim_red/suzukii_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for suzukii...
+2026-09-18 12:49:09,782 [PYTHON-INFO] loading data/reps/suzukii_reps.npz
+2026-09-18 12:49:10,120 [PYTHON-INFO] shape (23172, 960) dtype float32
+2026-09-18 12:49:10,120 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 12:50:28,909 [PYTHON-INFO] trustworthiness: 0.9844
+2026-09-18 12:50:28,943 [PYTHON-INFO] saved data/dim_red/suzukii_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for suzukii on Fri Sep 18 12:50:29 CEST 2026
+[SLURM-INFO] ..................................................
+2026-09-18 13:07:18,977 [PYTHON-INFO] saved data/dim_red/drosophila_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for drosophila...
+2026-09-18 13:07:27,106 [PYTHON-INFO] loading data/reps/drosophila_reps.npz
+2026-09-18 13:07:29,587 [PYTHON-INFO] shape (43008, 960) dtype float32
+2026-09-18 13:07:29,587 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 13:07:45,182 [PYTHON-INFO] saved data/dim_red/aedes_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for aedes...
+2026-09-18 13:07:53,059 [PYTHON-INFO] loading data/reps/aedes_reps.npz
+2026-09-18 13:07:55,721 [PYTHON-INFO] shape (45190, 960) dtype float32
+2026-09-18 13:07:55,740 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 13:08:11,647 [PYTHON-INFO] saved data/dim_red/pentatomidae_3D_tsne.npz
+[SLURM-INFO] Starting 3D UMAP for pentatomidae...
+2026-09-18 13:08:22,195 [PYTHON-INFO] loading data/reps/pentatomidae_reps.npz
+2026-09-18 13:08:24,651 [PYTHON-INFO] shape (40230, 960) dtype float32
+2026-09-18 13:08:24,658 [PYTHON-INFO] method=umap n_components=3 n_neighbors=15
+/u/area/ssenci/scratch/miniconda/envs/esm_env/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+2026-09-18 13:10:38,018 [PYTHON-INFO] trustworthiness: 0.9872
+2026-09-18 13:10:38,098 [PYTHON-INFO] saved data/dim_red/drosophila_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for drosophila on Fri Sep 18 13:10:38 CEST 2026
+[SLURM-INFO] ..................................................
+2026-09-18 13:10:53,932 [PYTHON-INFO] trustworthiness: 0.9888
+2026-09-18 13:10:54,004 [PYTHON-INFO] saved data/dim_red/aedes_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for aedes on Fri Sep 18 13:10:54 CEST 2026
+[SLURM-INFO] ..................................................
+2026-09-18 13:11:16,462 [PYTHON-INFO] trustworthiness: 0.9886
+2026-09-18 13:11:16,545 [PYTHON-INFO] saved data/dim_red/pentatomidae_3D_umap.npz
+[SLURM-INFO] ..................................................
+[SLURM-INFO] Finished 2D and 3D dimensionality reduction for pentatomidae on Fri Sep 18 13:11:17 CEST 2026
+[SLURM-INFO] ..................................................
