@@ -1,0 +1,15 @@
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 19.86it/s]100%|██████████| 2/2 [00:00<00:00, 19.82it/s]
+/orfeo/cephfs/scratch/area/ssenci/senci_projects/ESMC-crisis/src/scanpy_clusters.py:56: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  adata = ad.concat(adatas, join="outer") if len(adatas) > 1 else adatas[0]
+Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.12it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.29it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.12it/s]
+[PYTHON-INFO] 2026-09-19 19:47:11 69.87s 1185.33MB
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 21.08it/s]
+/orfeo/cephfs/scratch/area/ssenci/senci_projects/ESMC-crisis/src/scanpy_clusters.py:56: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  adata = ad.concat(adatas, join="outer") if len(adatas) > 1 else adatas[0]
+Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.29it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.39it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.38it/s]
+[PYTHON-INFO] 2026-09-19 19:48:20 66.31s 1159.09MB
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 19.13it/s]100%|██████████| 2/2 [00:00<00:00, 18.58it/s]
+/orfeo/cephfs/scratch/area/ssenci/senci_projects/ESMC-crisis/src/scanpy_clusters.py:56: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  adata = ad.concat(adatas, join="outer") if len(adatas) > 1 else adatas[0]
+Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.25it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.15it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.16it/s]
+[PYTHON-INFO] 2026-09-19 19:49:37 73.03s 1215.71MB
