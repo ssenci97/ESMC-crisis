@@ -11,7 +11,8 @@
 #SBATCH --array=0-15
 #SBATCH --open-mode=append
 
-FASTA_DIR="data/UniProtKB"
+FASTA_DIR="data/mmseqs_clusters/dedup"
+CONFIG_FILE="config/query_configs.tsv"
 
 echo "[SLURM-INFO] Job started on $(date)"
 
@@ -23,15 +24,27 @@ conda activate esm_env
 
 echo "[SLURM-INFO] Active Python: $(which python)"
 
-shopt -s nullglob
-files=("$FASTA_DIR"/*_dedup.fasta)
-shopt -u nullglob
+if [ ! -f "$CONFIG_FILE" ]; then
+    echo "[SLURM-INFO] Error: Config file $CONFIG_FILE not found."
+    exit 1
+fi
+
+# Extract 5th column (label), skipping header (NR>1) and empty values
+files=()
+while IFS= read -r label; do
+    target_file="${FASTA_DIR}/${label}_dedup.fasta"
+    if [ -f "$target_file" ]; then
+        files+=("$target_file")
+    else
+        echo "[SLURM-INFO] Warning: $target_file (label: $label) not found."
+    fi
+done < <(awk -F'\t' 'NR > 1 && $5 != "" {print $5}' "$CONFIG_FILE")
 
 if [ "${#files[@]}" -eq 0 ]; then
-    echo "[SLURM-INFO] Error: No matching fasta files found in $FASTA_DIR/"
+    echo "[SLURM-INFO] Error: No matching fasta files found for labels in $CONFIG_FILE."
     exit 1
 elif [ "$SLURM_ARRAY_TASK_ID" -ge "${#files[@]}" ]; then
-    echo "[SLURM-INFO] Task ID $SLURM_ARRAY_TASK_ID exceeds available files (${#files[@]}). Exiting cleanly."
+    echo "[SLURM-INFO] Task ID $SLURM_ARRAY_TASK_ID exceeds available matched files (${#files[@]}). Exiting cleanly."
     exit 0
 fi
 

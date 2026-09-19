@@ -18,7 +18,7 @@ start_time=$(date +%s)
 source /orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/bin/activate
 
 ###################################### MAIN
-awk -F'\t' -v dir="$REPS_DIR" 'NR>1 && $8!="" && $6!="" {groups[$8] = groups[$8] ? groups[$8] "," dir "/" $6 "_reps.npz" : dir "/" $6 "_reps.npz"} END {for (g in groups) print g, groups[g]}' "$CONFIG_PATH" | while read -r group npzs; do
+awk -F'\t' -v dir="$REPS_DIR" 'NR>1 && $7!="" && $5!="" {groups[$7] = groups[$7] ? groups[$7] "," dir "/" $5 "_reps.npz" : dir "/" $5 "_reps.npz"} END {for (g in groups) print g, groups[g]}' "$CONFIG_PATH" | while read -r group npzs; do
     out_npz="${REPS_DIR}/${group}_reps.npz"
     if [ -f "$out_npz" ]; then
         echo "[SLURM-INFO] Skipping group '${group}': target '${out_npz}' already exists"

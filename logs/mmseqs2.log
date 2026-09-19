@@ -1,0 +1,1347 @@
+
+
+
+asy-linclust data/raw_seqs/halys_seqs.fasta data/mmseqs_clusters/dedup/halys_tmp data/mmseqs_clusters/dedup/tmp_halys --min-seq-id 1.0 -c 1.0 --cov-mode 1 --threads 24 
+
+MMseqs Version:                     	8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Threads                             	24
+Compressed                          	0
+Verbosity                           	3
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Substitution matrix                 	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                       	false
+Alignment mode                      	0
+Alignment mode                      	0
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	1
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Coverage threshold                  	1
+Coverage mode                       	1
+Max sequence length                 	65535
+Compositional bias                  	1
+Compositional bias scale            	1
+Max reject                          	2147483647
+Max accept                          	2147483647
+Include identical seq. id.          	false
+Preload mode                        	0
+Pseudo count a                      	substitution:1.100,context:1.400
+Pseudo count b                      	substitution:4.100,context:5.800
+Score bias                          	0
+Realign hits                        	false
+Realign score bias                  	-0.2
+Realign max seqs                    	2147483647
+Correlation score weight            	0
+Gap open cost                       	aa:11,nucl:5
+Gap extension cost                  	aa:1,nucl:2
+Zdrop                               	40
+Alphabet size                       	aa:21,nucl:5
+k-mers per sequence                 	21
+Spaced k-mers                       	0
+Spaced k-mer pattern                	
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Mask residues                       	1
+Mask residues probability           	0.9
+Mask lower case residues            	0
+Mask lower letter repeating N times 	0
+k-mer length                        	0
+Shift hash                          	67
+Split memory limit                  	0
+Include only extendable             	false
+Skip repeating k-mers               	false
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Remove temporary files              	true
+Force restart with latest tmp       	false
+MPI runner                          	
+Database type                       	0
+Shuffle input database              	true
+Createdb mode                       	1
+Write lookup file                   	0
+Offset of numeric ids               	0
+Use GPU                             	0
+
+
+asy-linclust data/raw_seqs/melanogaster_seqs.fasta data/mmseqs_clusters/dedup/melanogaster_tmp data/mmseqs_clusters/dedup/tmp_melanogaster --min-seq-id 1.0 -c 1.0 --cov-mode 1 --threads 24 
+
+MMseqs Version:                     	8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Threads                             	24
+Compressed                          	0
+Verbosity                           	3
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Substitution matrix                 	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                       	false
+Alignment mode                      	0
+Alignment mode                      	0
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	1
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Coverage threshold                  	1
+Coverage mode                       	1
+Max sequence length                 	65535
+Compositional bias                  	1
+Compositional bias scale            	1
+Max reject                          	2147483647
+Max accept                          	2147483647
+Include identical seq. id.          	false
+Preload mode                        	0
+Pseudo count a                      	substitution:1.100,context:1.400
+Pseudo count b                      	substitution:4.100,context:5.800
+Score bias                          	0
+Realign hits                        	false
+Realign score bias                  	-0.2
+Realign max seqs                    	2147483647
+Correlation score weight            	0
+Gap open cost                       	aa:11,nucl:5
+Gap extension cost                  	aa:1,nucl:2
+Zdrop                               	40
+Alphabet size                       	aa:21,nucl:5
+k-mers per sequence                 	21
+Spaced k-mers                       	0
+Spaced k-mer pattern                	
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Mask residues                       	1
+Mask residues probability           	0.9
+Mask lower case residues            	0
+Mask lower letter repeating N times 	0
+k-mer length                        	0
+Shift hash                          	67
+Split memory limit                  	0
+Include only extendable             	false
+Skip repeating k-mers               	false
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Remove temporary files              	true
+Force restart with latest tmp       	false
+MPI runner                          	
+Database type                       	0
+Shuffle input database              	true
+Createdb mode                       	1
+Write lookup file                   	0
+Offset of numeric ids               	0
+Use GPU                             	0
+
+easy-linclust data/raw_seqs/albopictus_seqs.fasta data/mmseqs_clusters/dedup/albopictus_tmp data/mmseqs_clusters/dedup/tmp_albopictus --min-seq-id 1.0 -c 1.0 --cov-mode 1 --threads 24 
+
+MMseqs Version:                     	8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Threads                             	24
+Compressed                          	0
+Verbosity                           	3
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Substitution matrix                 	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                       	false
+Alignment mode                      	0
+Alignment mode                      	0
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	1
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Coverage threshold                  	1
+Coverage mode                       	1
+Max sequence length                 	65535
+Compositional bias                  	1
+Compositional bias scale            	1
+Max reject                          	2147483647
+Max accept                          	2147483647
+Include identical seq. id.          	false
+Preload mode                        	0
+Pseudo count a                      	substitution:1.100,context:1.400
+Pseudo count b                      	substitution:4.100,context:5.800
+Score bias                          	0
+Realign hits                        	false
+Realign score bias                  	-0.2
+Realign max seqs                    	2147483647
+Correlation score weight            	0
+Gap open cost                       	aa:11,nucl:5
+Gap extension cost                  	aa:1,nucl:2
+Zdrop                               	40
+Alphabet size                       	aa:21,nucl:5
+k-mers per sequence                 	21
+Spaced k-mers                       	0
+Spaced k-mer pattern                	
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Mask residues                       	1
+Mask residues probability           	0.9
+Mask lower case residues            	0
+Mask lower letter repeating N times 	0
+k-mer length                        	0
+Shift hash                          	67
+Split memory limit                  	0
+Include only extendable             	false
+Skip repeating k-mers               	false
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Remove temporary files              	true
+Force restart with latest tmp       	false
+MPI runner                          	
+Database type                       	0
+Shuffle input database              	true
+Createdb mode                       	1
+Write lookup file                   	0
+Offset of numeric ids               	0
+Use GPU                             	0
+
+
+asy-linclust data/raw_seqs/aegypti_seqs.fasta data/mmseqs_clusters/dedup/aegypti_tmp data/mmseqs_clusters/dedup/tmp_aegypti --min-seq-id 1.0 -c 1.0 --cov-mode 1 --threads 24 
+
+MMseqs Version:                     	8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Threads                             	24
+Compressed                          	0
+Verbosity                           	3
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Substitution matrix                 	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                       	false
+Alignment mode                      	0
+Alignment mode                      	0
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	1
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Coverage threshold                  	1
+Coverage mode                       	1
+Max sequence length                 	65535
+Compositional bias                  	1
+Compositional bias scale            	1
+Max reject                          	2147483647
+Max accept                          	2147483647
+Include identical seq. id.          	false
+Preload mode                        	0
+Pseudo count a                      	substitution:1.100,context:1.400
+Pseudo count b                      	substitution:4.100,context:5.800
+Score bias                          	0
+Realign hits                        	false
+Realign score bias                  	-0.2
+Realign max seqs                    	2147483647
+Correlation score weight            	0
+Gap open cost                       	aa:11,nucl:5
+Gap extension cost                  	aa:1,nucl:2
+Zdrop                               	40
+Alphabet size                       	aa:21,nucl:5
+k-mers per sequence                 	21
+Spaced k-mers                       	0
+Spaced k-mer pattern                	
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Mask residues                       	1
+Mask residues probability           	0.9
+Mask lower case residues            	0
+Mask lower letter repeating N times 	0
+k-mer length                        	0
+Shift hash                          	67
+Split memory limit                  	0
+Include only extendable             	false
+Skip repeating k-mers               	false
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Remove temporary files              	true
+Force restart with latest tmp       	false
+MPI runner                          	
+Database type                       	0
+Shuffle input database              	true
+Createdb mode                       	1
+Write lookup file                   	0
+Offset of numeric ids               	0
+Use GPU                             	0
+
+
+SLURM-INFO] Task:14 Time:0s Mem:7768kB Date:2026-09-18 20:37:13
+rs/dedup/tmp_melanogaster/9710713605368030908/input --createdb-mode 1 --write-lookup 0 --threads 24 
+
+Shuffle database cannot be combined with --createdb-mode 1
+createdb data/raw_seqs/albopictus_seqs.fasta data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input --createdb-mode 1 --write-lookup 0 --threads 24 
+
+Shuffle database cannot be combined with --createdb-mode 1
+7b5638c4306c2d7cfc652dd099a4643f
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Threads                             	24
+Compressed                          	0
+Verbosity                           	3
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Substitution matrix                 	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                       	false
+Alignment mode                      	0
+Alignment mode                      	0
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	1
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Coverage threshold                  	1
+Coverage mode                       	1
+Max sequence length                 	65535
+Compositional bias                  	1
+Compositional bias scale            	1
+Max reject                          	2147483647
+Max accept                          	2147483647
+Include identical seq. id.          	false
+Preload mode                        	0
+Pseudo count a                      	substitution:1.100,context:1.400
+Pseudo count b                      	substitution:4.100,context:5.800
+Score bias                          	0
+Realign hits                        	false
+Realign score bias                  	-0.2
+Realign max seqs                    	2147483647
+Correlation score weight            	0
+Gap open cost                       	aa:11,nucl:5
+Gap extension cost                  	aa:1,nucl:2
+Zdrop                               	40
+Alphabet size                       	aa:21,nucl:5
+k-mers per sequence                 	21
+Spaced k-mers                       	0
+Spaced k-mer pattern                	
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Mask residues                       	1
+Mask residues probability           	0.9
+Mask lower case residues            	0
+Mask lower letter repeating N times 	0
+k-mer length                        	0
+Shift hash                          	67
+Split memory limit                  	0
+Include only extendable             	false
+Skip repeating k-mers               	false
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Remove temporary files              	true
+Force restart with latest tmp       	false
+MPI runner                          	
+Database type                       	0
+Shuffle input database              	true
+Createdb mode                       	1
+Write lookup file                   	0
+Offset of numeric ids               	0
+Use GPU                             	0
+
+easy-linclust data/raw_seqs/viridula_seqs.fasta data/mmseqs_clusters/dedup/viridula_tmp data/mmseqs_clusters/dedup/tmp_viridula --min-seq-id 1.0 -c 1.0 --cov-mode 1 --threads 24 
+
+MMseqs Version:                     	8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Threads                             	24
+Compressed                          	0
+Verbosity                           	3
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Substitution matrix                 	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                       	false
+Alignment mode                      	0
+Alignment mode                      	0
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	1
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Coverage threshold                  	1
+Coverage mode                       	1
+Max sequence length                 	65535
+Compositional bias                  	1
+Compositional bias scale            	1
+Max reject                          	2147483647
+Max accept                          	2147483647
+Include identical seq. id.          	false
+Preload mode                        	0
+Pseudo count a                      	substitution:1.100,context:1.400
+Pseudo count b                      	substitution:4.100,context:5.800
+Score bias                          	0
+Realign hits                        	false
+Realign score bias                  	-0.2
+Realign max seqs                    	2147483647
+Correlation score weight            	0
+Gap open cost                       	aa:11,nucl:5
+Gap extension cost                  	aa:1,nucl:2
+Zdrop                               	40
+Alphabet size                       	aa:21,nucl:5
+k-mers per sequence                 	21
+Spaced k-mers                       	0
+Spaced k-mer pattern                	
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Mask residues                       	1
+Mask residues probability           	0.9
+Mask lower case residues            	0
+Mask lower letter repeating N times 	0
+k-mer length                        	0
+Shift hash                          	67
+Split memory limit                  	0
+Include only extendable             	false
+Skip repeating k-mers               	false
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Remove temporary files              	true
+Force restart with latest tmp       	false
+MPI runner                          	
+Database type                       	0
+Shuffle input database              	true
+Createdb mode                       	1
+Write lookup file                   	0
+Offset of numeric ids               	0
+Use GPU                             	0
+
+We recompute with --shuffle 0
+createdb data/raw_seqs/suzukii_seqs.fasta data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input --createdb-mode 1 --write-lookup 0 --threads 24 
+
+Shuffle database cannot be combined with --createdb-mode 1
+createdb data/raw_seqs/viridula_seqs.fasta data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input --createdb-mode 1 --write-lookup 0 --threads 24 
+
+Shuffle database cannot be combined with --createdb-mode 1
+We recompute with --shuffle 0
+We recompute with --shuffle 0
+Converting sequences
+[=Converting sequences
+[=put_h: 0h 0m 0s 0ms
+Time for merging to input: 0h 0m 0s 1ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 92ms
+=onverting sequences
+[=put_h: 0h 0m 0s 0ms
+Time for merging to input: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 90ms
+
+Time for merging to input_h: 0h 0m 0s 1ms
+Time for merging to input: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 150ms
+Create directory data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp
+linclust data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp --threads 24 -e 0.001 --min-seq-id 1 -c 1 --cov-mode 1 --spaced-kmer-mode 0 --remove-tmp-files 1 
+
+Set cluster mode GREEDY MEM.
+
+Time for merging to input_h: 0h 0m 0s 0ms
+Time for merging to input: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 209ms
+642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp --threads 24 -e 0.001 --min-seq-id 1 -c 1 --cov-mode 1 --spaced-kmer-mode 0 --remove-tmp-files 1 
+
+Set cluster mode GREEDY MEM.
+
+Time for merging to input_h: 0h 0m 0s 0ms
+Time for merging to input: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 242ms
+Create directory data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp
+linclust data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp --threads 24 -e 0.001 --min-seq-id 1 -c 1 --cov-mode 1 --spaced-kmer-mode 0 --remove-tmp-files 1 
+
+Set cluster mode GREEDY MEM.
+
+Create directory data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp
+linclust data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp --threads 24 -e 0.001 --min-seq-id 1 -c 1 --cov-mode 1 --spaced-kmer-mode 0 --remove-tmp-files 1 
+
+Set cluster mode GREEDY MEM.
+1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+kmermatcher data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Database size: 26305 type: Aminoacid
+
+Generate k-mers list for 1 split
+[===kmermatcher data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+kmermatcher data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Database size: 21947 type: Aminoacid
+
+Generate k-mers list for 1 split
+[=Create directory data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp
+linclust data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp --threads 24 -e 0.001 --min-seq-id 1 -c 1 --cov-mode 1 --spaced-kmer-mode 0 --remove-tmp-files 1 
+
+Set cluster mode GREEDY MEM.
+kmermatcher data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+kmermatcher data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Database size: 19915 type: Aminoacid
+
+Generate k-mers list for 1 split
+[=[==kmermatcher data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+kmermatcher data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Database size: 23889 type: Aminoacid
+
+Generate k-mers list for 1 split
+[=====mermatcher data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+kmermatcher data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 1 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 1 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Database size: 20643 type: Aminoacid
+
+Generate k-mers list for 1 split
+[==================================================================== 26.33K 1s 144ms
+Sort kmer 0h 0m 0s 11ms
+Sort by rep. sequence 0h 0m 0s 6ms
+Time for fill: 0h 0m 0s 4ms
+Time for merging to pref: 0h 0m 0s 0ms
+Time for processing: 0h 0m 1s 195ms
+===escorediagonal data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+[===========escorediagonal data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+[======================================= 26.31K 2s 55ms
+Sort kmer 0h 0m 0s 4ms
+Sort by rep. sequence 0h 0m 0s 2ms
+Time for fill: 0h 0m 0s 1ms
+Time for merging to pref: 0h 0m 0s 0ms
+Time for processing: 0h 0m 2s 79ms
+===== 21.95K 2s 150ms
+Sort kmer 0h 0m 0s 3ms
+Sort by rep. sequence 0h 0m 0s 2ms
+Time for fill: 0h 0m 0s 1ms
+Time for merging to pref: 0h 0m 0s 0ms
+Time for processing: 0h 0m 2s 200ms
+] ==escorediagonal data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+[===escorediagonal data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+[====== 19.92K 2s 164ms
+Sort kmer 0h 0m 0s 49ms
+Sort by rep. sequence 0h 0m 0s 40ms
+Time for fill: 0h 0m 0s 0ms
+Time for merging to pref: 0h 0m 0s 0ms
+Time for processing: 0h 0m 2s 295ms
+=] =33K 1s 7ms
+== 23.89K 2s 155ms
+Sort kmer 0h 0m 0s 44ms
+Sort by rep. sequence 0h 0m 0s 40ms
+Time for fill: 0h 0m 0s 1ms
+Time for merging to pref: 0h 0m 0s 0ms
+Time for processing: 0h 0m 2s 284ms
+==Time for merging to pref_rescore1: 0h 0m 0s 24ms
+Time for processing: 0h 0m 1s 101ms
+/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+[==escorediagonal data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+[===clust data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_rescore1 data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pre_clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 6ms
+
+Size of the sequence database: 26331
+Size of the alignment database: 26331
+Number of clusters: 25537
+
+Writing results 0h 0m 0s 2ms
+Time for merging to pre_clust: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 27ms
+=20.64K 0s 973ms
+===ime for merging to pref_rescore1: 0h 0m 0s 17ms
+Time for processing: 0h 0m 1s 90ms
+=reatesubdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/order_redundancy data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 105ms
+====createsubdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/order_redundancy data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 10ms
+=====ilterdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_filter1 data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_filter2 --filter-file data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/order_redundancy --threads 24 --compressed 0 -v 3 
+
+Filtering using file(s)
+[=========lust data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_rescore1 data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pre_clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 123ms
+
+Size of the sequence database: 20643
+Size of the alignment database: 20643
+Number of clusters: 19727
+
+Writing results 0h 0m 0s 1ms
+Time for merging to pre_clust: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 141ms
+=======reatesubdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/order_redundancy data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+===reatesubdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/order_redundancy data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 36ms
+====================ilterdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_filter1 data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_filter2 --filter-file data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/order_redundancy --threads 24 --compressed 0 -v 3 
+
+Filtering using file(s)
+[============================] =====5.54K 0s 971ms
+Time for merging to pref_filter2: 0h 0m 0s 18ms
+Time for processing: 0h 0m 1s 25ms
+===escorediagonal data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/input_step_redundancy data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/input_step_redundancy data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_filter2 data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+Can not find any score per column for coverage 1.000000 and sequence identity 1.000000. No hit will be filtered.
+==== =============6.31K =1s 587ms
+= =] == =====1.95K =1s 683ms
+====ime for merging to pref_rescore1: 0h 0m 0s 8ms
+Time for processing: 0h 0m 1s 822ms
+=ime for merging to pref_rescore1: 0h 0m 0s 8ms
+Time for processing: 0h 0m 1s 776ms
+=lust data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref_rescore1 data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pre_clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 6ms
+
+Size of the sequence database: 26305
+Size of the alignment database: 26305
+Number of clusters: 20888
+
+Writing results 0h 0m 0s 1ms
+Time for merging to pre_clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 14ms
+===lust data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_rescore1 data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pre_clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 9ms
+
+Size of the sequence database: 21947
+Size of the alignment database: 21947
+Number of clusters: 19543
+
+Writing results 0h 0m 0s 1ms
+Time for merging to pre_clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 21ms
+===reatesubdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/order_redundancy data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 14ms
+= 19.73K 0s 959ms
+Time for merging to pref_filter2: 0h 0m 0s 17ms
+Time for processing: 0h 0m 1s 200ms
+==reatesubdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/order_redundancy data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 7ms
+23.89K =bdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/order_redundancy data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 17ms
+=9.92K 1s 759ms
+===reatesubdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/order_redundancy data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 8ms
+===Time for merging to pref_rescore1: 0h 0m 0s 23ms
+Time for processing: 0h 0m 1s 861ms
+641030850/pref_filter1 data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref_filter2 --filter-file data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/order_redundancy --threads 24 --compressed 0 -v 3 
+
+Filtering using file(s)
+[=1s 767ms
+Time for merging to pref_rescore1: 0h 0m 0s 25ms
+Time for processing: 0h 0m 1s 837ms
+=====lust data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_rescore1 data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pre_clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 9ms
+
+Size of the sequence database: 19915
+Size of the alignment database: 19915
+Number of clusters: 19535
+
+Writing results 0h 0m 0s 1ms
+Time for merging to pre_clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 18ms
+=lust data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_rescore1 data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pre_clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 9ms
+
+Size of the sequence database: 23889
+Size of the alignment database: 23889
+Number of clusters: 23040
+
+Writing results 0h 0m 0s 1ms
+Time for merging to pre_clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 20ms
+=ilterdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_filter1 data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_filter2 --filter-file data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/order_redundancy --threads 24 --compressed 0 -v 3 
+
+Filtering using file(s)
+[====reatesubdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/order_redundancy data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 22ms
+====] 25.54K 0s 601ms
+=seqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/order_redundancy data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 17ms
+createsubdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/order_redundancy data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 9ms
+42167645/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+Can not find any score per column for coverage 1.000000 and sequence identity 1.000000. No hit will be filtered.
+=createsubdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/order_redundancy data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 12ms
+===filterdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_filter1 data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_filter2 --filter-file data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/order_redundancy --threads 24 --compressed 0 -v 3 
+
+Filtering using file(s)
+[===ime for merging to pref_rescore2: 0h 0m 0s 24ms
+Time for processing: 0h 0m 0s 777ms
+=ilterdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_filter1 data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_filter2 --filter-file data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/order_redundancy --threads 24 --compressed 0 -v 3 
+
+Filtering using file(s)
+[======lign data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/input_step_redundancy data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/input_step_redundancy data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_rescore2 data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 1 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 24 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 25537 type: Aminoacid
+Target database size: 25537 type: Aminoacid
+Calculation of alignments
+[============================================ 19.73K 1s 106ms
+====================ime for merging to pref_rescore2: 0h 0m 0s 16ms
+Time for processing: 0h 0m 1s 522ms
+=======lign data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/input_step_redundancy data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/input_step_redundancy data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_rescore2 data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 1 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 24 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 19727 type: Aminoacid
+Target database size: 19727 type: Aminoacid
+Calculation of alignments
+[======================== 25.54K 1s 477ms
+Time for merging to aln: 0h 0m 0s 8ms
+46026 alignments calculated
+25596 sequence pairs passed the thresholds (0.556120 of overall calculated)
+1.002310 hits per query sequence
+Time for processing: 0h 0m 1s 580ms
+==== 20.89K 2s 5ms
+Time for merging to pref_filter2: 0h 0m 0s 10ms
+Time for processing: 0h 0m 2s 46ms
+===lust data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/input_step_redundancy data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/aln data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 9ms
+
+Size of the sequence database: 25537
+Size of the alignment database: 25537
+Number of clusters: 25481
+
+Writing results 0h 0m 0s 2ms
+Time for merging to clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 24ms
+====ergeclusters data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pre_clust data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/clust --threads 24 --compressed 0 -v 3 
+
+Clustering step 1
+[=80104232641030850/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+Can not find any score per column for coverage 1.000000 and sequence identity 1.000000. No hit will be filtered.
+= 19.54K 1s 978ms
+Time for merging to pref_filter2: 0h 0m 0s 8ms
+Time for processing: 0h 0m 2s 79ms
+======escorediagonal data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/input_step_redundancy data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/input_step_redundancy data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_filter2 data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+Can not find any score per column for coverage 1.000000 and sequence identity 1.000000. No hit will be filtered.
+======================== 23.04K 2s 237ms
+Time for merging to pref_filter2: 0h 0m 0s 16ms
+Time for processing: 0h 0m 2s 285ms
+=== 19.53K 2s 201ms
+Time for merging to pref_filter2: 0h 0m 0s 22ms
+Time for processing: 0h 0m 2s 374ms
+===escorediagonal data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/input_step_redundancy data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/input_step_redundancy data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_filter2 data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+Can not find any score per column for coverage 1.000000 and sequence identity 1.000000. No hit will be filtered.
+=====escorediagonal data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/input_step_redundancy data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/input_step_redundancy data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_filter2 data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 1 -a 0 --cov-mode 1 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 24 --compressed 0 -v 3 
+
+Can not find any score per column for coverage 1.000000 and sequence identity 1.000000. No hit will be filtered.
+===================================== 25.54K 1s 125ms
+Clustering step 2
+[====== 19.73K 1s 505ms
+Time for merging to aln: 0h 0m 0s 9ms
+30703 alignments calculated
+19800 sequence pairs passed the thresholds (0.644888 of overall calculated)
+1.003700 hits per query sequence
+Time for processing: 0h 0m 1s 699ms
+================ust data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/input_step_redundancy data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/aln data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 88ms
+
+Size of the sequence database: 19727
+Size of the alignment database: 19727
+Number of clusters: 19667
+
+Writing results 0h 0m 0s 1ms
+Time for merging to clust: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 102ms
+=====ergeclusters data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pre_clust data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/clust --threads 24 --compressed 0 -v 3 
+
+Clustering step 1
+[=========== ========== =19.54K ===========0.89K ====s 800ms
+Time for merging to pref_rescore2: 0h 0m 0s 9ms
+Time for processing: 0h 0m 1s 936ms
+===s 613ms
+==lign data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/input_step_redundancy data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/input_step_redundancy data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref_rescore2 data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 1 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 24 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 20888 type: Aminoacid
+Target database size: 20888 type: Aminoacid
+Calculation of alignments
+[====ime for merging to pref_rescore2: 0h 0m 0s 9ms
+Time for processing: 0h 0m 1s 945ms
+== 25.48K 2s 109ms
+Write merged clustering
+[=aster/9710713605368030908/clu_tmp/1535074972958264017/input_step_redundancy data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/input_step_redundancy data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_rescore2 data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 1 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 24 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 19543 type: Aminoacid
+Target database size: 19543 type: Aminoacid
+Calculation of alignments
+[===========] 23.04K 1s 769ms
+====== 19.53K =1s 730ms
+================= 19.73K 1s 141ms
+Clustering step 2
+[==============ime for merging to pref_rescore2: 0h 0m 0s 24ms
+Time for processing: 0h 0m 2s 99ms
+=Time for merging to pref_rescore2: 0h 0m 0s 21ms
+Time for processing: 0h 0m 2s 101ms
+=lign data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/input_step_redundancy data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/input_step_redundancy data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_rescore2 data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 1 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 24 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 23040 type: Aminoacid
+Target database size: 23040 type: Aminoacid
+Calculation of alignments
+[=====lign data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/input_step_redundancy data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/input_step_redundancy data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_rescore2 data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 1 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 1 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 24 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 19535 type: Aminoacid
+Target database size: 19535 type: Aminoacid
+Calculation of alignments
+[=============================] 26.33K 3s 83ms
+Time for merging to clu: 0h 0m 0s 20ms
+Time for processing: 0h 0m 3s 113ms
+==rmdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 16ms
+===mdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+===mdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_rescore1 -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+==rmdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+==rmdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 11ms
+===mdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 6ms
+===rmdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_filter2 -v 3 
+
+Time for processing: 0h 0m 0s 89ms
+==rmdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/pref_rescore2 -v 3 
+
+Time for processing: 0h 0m 0s 11ms
+] 19.67K 2s 154ms
+Write merged clustering
+[=rmdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/aln -v 3 
+
+Time for processing: 0h 0m 0s 6ms
+===rmdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_tmp/6345113989191654207/clust -v 3 
+
+Time for processing: 0h 0m 0s 28ms
+=======reatetsv data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/cluster.tsv --threads 24 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 17ms
+Time for processing: 0h 0m 0s 75ms
+============esult2repseq data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_rep --db-load-mode 0 --compressed 0 --threads 24 -v 3 
+
+[========= 20.89K 1s 979ms
+Time for merging to aln: 0h 0m 0s 10ms
+33264 alignments calculated
+20986 sequence pairs passed the thresholds (0.630892 of overall calculated)
+1.004692 hits per query sequence
+Time for processing: 0h 0m 2s 29ms
+======lust data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/input_step_redundancy data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/aln data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 5ms
+
+Size of the sequence database: 20888
+Size of the alignment database: 20888
+Number of clusters: 20800
+
+Writing results 0h 0m 0s 1ms
+Time for merging to clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 13ms
+==ergeclusters data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pre_clust data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/clust --threads 24 --compressed 0 -v 3 
+
+Clustering step 1
+[================================= 20.64K 3s 179ms
+Time for merging to clu: 0h 0m 0s 15ms
+Time for processing: 0h 0m 3s 216ms
+===mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+===mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref -v 3 
+
+Time for processing: 0h 0m 0s 14ms
+====mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_rescore1 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+===mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+== 19.53K 1s 857ms
+Time for merging to aln: 0h 0m 0s 13ms
+27963 alignments calculated
+19560 sequence pairs passed the thresholds (0.699496 of overall calculated)
+1.001280 hits per query sequence
+Time for processing: 0h 0m 1s 957ms
+= 19.54K 2s 436ms
+Time for merging to aln: 0h 0m 0s 9ms
+29823 alignments calculated
+19588 sequence pairs passed the thresholds (0.656808 of overall calculated)
+1.002303 hits per query sequence
+Time for processing: 0h 0m 2s 593ms
+==mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+===mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_filter2 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+] 25.48K 0s 802ms
+Time for merging to clu_rep: 0h 0m 0s 62ms
+Time for processing: 0h 0m 0s 920ms
+nput_step_redundancy data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/aln data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 27ms
+
+Size of the sequence database: 19535
+Size of the alignment database: 19535
+Number of clusters: 19514
+
+Writing results 0h 0m 0s 1ms
+Time for merging to clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 48ms
+ 43ms
+=rmdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/pref_rescore2 -v 3 
+
+Time for processing: 0h 0m 0s 6ms
+=mergeclusters data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pre_clust data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/clust --threads 24 --compressed 0 -v 3 
+
+Clustering step 1
+[= step 1
+[=rmdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/aln -v 3 
+
+Time for processing: 0h 0m 0s 72ms
+===mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_tmp/18239402943442167645/clust -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+====reateseqfiledb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_seqs --threads 24 -v 3 
+
+[============reatetsv data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/cluster.tsv --threads 24 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 13ms
+Time for processing: 0h 0m 0s 136ms
+=== 20.89K 1s 77ms
+Clustering step 2
+[=====esult2repseq data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_rep --db-load-mode 0 --compressed 0 --threads 24 -v 3 
+
+[============================================ 19.53K 1s 222ms
+Clustering step 2
+[================= 25.48K 1s 204ms
+Time for merging to clu_seqs: 0h 0m 0s 18ms
+Time for processing: 0h 0m 1s 286ms
+===========sult2flat data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_seqs data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 105ms
+==mdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input -v 3 
+
+Time for processing: 0h 0m 0s 62ms
+===mdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/input_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+======mdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+=] 19.67K 1s 222ms
+Time for merging to clu_rep: 0h 0m 0s 28ms
+Time for processing: 0h 0m 1s 398ms
+sing: 0h 0m 0s 1ms
+=rmdb data/mmseqs_clusters/dedup/tmp_albopictus/4019366615200521368/clu -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+======esult2flat data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_rep data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 60ms
+==SLURM-INFO] Task:2 Time:13s Mem:7768kB Date:2026-09-18 20:37:26
+=======] 23.04K 4s 147ms
+Time for merging to aln: 0h 0m 0s 13ms
+41850 alignments calculated
+23085 sequence pairs passed the thresholds (0.551613 of overall calculated)
+1.001953 hits per query sequence
+Time for processing: 0h 0m 4s 236ms
+=======clust data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/input_step_redundancy data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/aln data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 24 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 8ms
+
+Size of the sequence database: 23040
+Size of the alignment database: 23040
+Number of clusters: 23005
+
+Writing results 0h 0m 0s 1ms
+Time for merging to clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 27ms
+==mergeclusters data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pre_clust data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/clust --threads 24 --compressed 0 -v 3 
+
+Clustering step 1
+[==reateseqfiledb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_seqs --threads 24 -v 3 
+
+[==== 19.54K 2s 118ms
+Clustering step 2
+[=======] 19.51K 2s 190ms
+Write merged clustering
+[======== 20.80K 2s 978ms
+Write merged clustering
+[================================================================ 19.67K 0s 756ms
+Time for merging to clu_seqs: 0h 0m 0s 10ms
+Time for processing: 0h 0m 0s 979ms
+====esult2flat data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_seqs data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 66ms
+==rmdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+===mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/input_h -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+==rmdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 8ms
+===mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+====mdb data/mmseqs_clusters/dedup/tmp_aegypti/15407635336287468825/clu -v 3 
+
+Time for processing: 0h 0m 0s 10ms
+=======
+=SLURM-INFO] Task:1 Time:14s Mem:7768kB Date:2026-09-18 20:37:27
+========================] 19.51K 3s 546ms
+Write merged clustering
+[===============] 23.04K 1s 688ms
+Clustering step 2
+[== 26.31K 4s 532ms
+Time for merging to clu: 0h 0m 0s 7ms
+Time for processing: 0h 0m 4s 548ms
+===mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+=] 19.92K 3s 835ms
+=usters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+=Time for merging to clu: 0h 0m 0s 13ms
+Time for processing: 0h 0m 3s 876ms
+==mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref_rescore1 -v 3 
+
+Time for processing: 0h 0m 0s 51ms
+===mdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+=mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 14ms
+===db data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+=mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+==rmdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+====rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 24ms
+=rmdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/pref_rescore2 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 14ms
+==mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/aln -v 3 
+
+Time for processing: 0h 0m 0s 40ms
+rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 15ms
+=mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_tmp/15380104232641030850/clust -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+====mdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_filter2 -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+===rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/pref_rescore2 -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+usters/dedup/tmp_halys/6464025096932225642/clu data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/cluster.tsv --threads 24 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 11ms
+Time for processing: 0h 0m 0s 34ms
+====rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/aln -v 3 
+
+Time for processing: 0h 0m 0s 8ms
+==esult2repseq data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_rep --db-load-mode 0 --compressed 0 --threads 24 -v 3 
+
+[=rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_tmp/10489570775026371714/clust -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+===========createtsv data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/cluster.tsv --threads 24 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 20ms
+Time for processing: 0h 0m 0s 105ms
+======result2repseq data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_rep --db-load-mode 0 --compressed 0 --threads 24 -v 3 
+
+[============================= 21.95K 4s 809ms
+Time for merging to clu: 0h 0m 0s 7ms
+Time for processing: 0h 0m 4s 839ms
+===mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+==mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+====mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_rescore1 -v 3 
+
+Time for processing: 0h 0m 0s 15ms
+=] 23.00K 2s 790ms
+Write merged clustering
+[=ster/9710713605368030908/clu_tmp/1535074972958264017/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+====mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 13ms
+===mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+====mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_filter2 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+====mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/pref_rescore2 -v 3 
+
+Time for processing: 0h 0m 0s 8ms
+==mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/aln -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+==mdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_tmp/1535074972958264017/clust -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+=================reatetsv data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/cluster.tsv --threads 24 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 14ms
+Time for processing: 0h 0m 0s 97ms
+========= 20.80K 0s 927ms
+Time for merging to clu_rep: 0h 0m 0s 21ms
+Time for processing: 0h 0m 0s 975ms
+=esult2repseq data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_rep --db-load-mode 0 --compressed 0 --threads 24 -v 3 
+
+[=====esult2flat data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_rep data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 53ms
+====reateseqfiledb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_seqs --threads 24 -v 3 
+
+[============================================] 19.51K 1s 511ms
+Time for merging to clu_rep: 0h 0m 0s 39ms
+Time for processing: 0h 0m 1s 631ms
+=======result2flat data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_rep data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 81ms
+==========] 23.89K 4s 125ms
+Time for merging to clu: 0h 0m 0s 15ms
+Time for processing: 0h 0m 4s 149ms
+=reateseqfiledb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_seqs --threads 24 -v 3 
+
+[==rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+==rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+===rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_rescore1 -v 3 
+
+Time for processing: 0h 0m 0s 13ms
+==rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 10ms
+===rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 27ms
+==rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+===rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_filter2 -v 3 
+
+Time for processing: 0h 0m 0s 8ms
+===rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/pref_rescore2 -v 3 
+
+Time for processing: 0h 0m 0s 6ms
+==rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/aln -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+==rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_tmp/18407282304380185161/clust -v 3 
+
+Time for processing: 0h 0m 0s 10ms
+==========createtsv data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/cluster.tsv --threads 24 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 16ms
+Time for processing: 0h 0m 0s 52ms
+====result2repseq data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_rep --db-load-mode 0 --compressed 0 --threads 24 -v 3 
+
+[======= 19.51K 1s 661ms
+Time for merging to clu_rep: 0h 0m 0s 24ms
+Time for processing: 0h 0m 1s 783ms
+=========esult2flat data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_rep data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 49ms
+= 20.80K 1s 622ms
+Time for merging to clu_seqs: 0h 0m 0s 7ms
+Time for processing: 0h 0m 1s 687ms
+==========reateseqfiledb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_seqs --threads 24 -v 3 
+
+[====esult2flat data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_seqs data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 68ms
+===mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input -v 3 
+
+Time for processing: 0h 0m 0s 28ms
+==mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/input_h -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+==mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+==mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+====mdb data/mmseqs_clusters/dedup/tmp_halys/6464025096932225642/clu -v 3 
+
+Time for processing: 0h 0m 0s 6ms
+======SLURM-INFO] Task:3 Time:18s Mem:7768kB Date:2026-09-18 20:37:31
+==============] 19.51K 1s 432ms
+Time for merging to clu_seqs: 0h 0m 0s 17ms
+Time for processing: 0h 0m 1s 576ms
+=========result2flat data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_seqs data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 128ms
+==rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+==rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/input_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+====rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 92ms
+===rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 9ms
+===rmdb data/mmseqs_clusters/dedup/tmp_viridula/16543487506898229757/clu -v 3 
+
+Time for processing: 0h 0m 0s 59ms
+========
+[SLURM-INFO] Task:6 Time:19s Mem:7768kB Date:2026-09-18 20:37:32
+=
+== 19.51K 1s 136ms
+Time for merging to clu_seqs: 0h 0m 0s 9ms
+Time for processing: 0h 0m 1s 225ms
+=result2flat data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_seqs data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 67ms
+rmdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+] 23.00K 1s 447ms
+Time for merging to clu_rep: 0h 0m 0s 53ms
+Time for processing: 0h 0m 1s 568ms
+rmdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/input_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb data/mmseqs_clusters/dedup/tmp_melanogaster/9710713605368030908/clu -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+result2flat data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_rep data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 63ms
+
+[SLURM-INFO] Task:4 Time:19s Mem:7768kB Date:2026-09-18 20:37:32
+
+createseqfiledb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_seqs --threads 24 -v 3 
+
+[=================================================================] 23.00K 0s 968ms
+Time for merging to clu_seqs: 0h 0m 0s 17ms
+Time for processing: 0h 0m 1s 56ms
+result2flat data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_seqs data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 69ms
+rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/input_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb data/mmseqs_clusters/dedup/tmp_suzukii/3039526775689231283/clu -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+
+[SLURM-INFO] Task:5 Time:21s Mem:7768kB Date:2026-09-18 20:37:34
+
+
+[SLURM-INFO] Task:AGGREGATE GroupsMerged:drosophila pentatomidae aedes UnionTarget:data/mmseqs_clusters/dedup/union_dedup.fasta Time:1s Mem:7768kB Date:2026-09-18 20:38:41
+
+
+[SLURM-INFO] Task:AGGREGATE GroupsMerged:drosophila pentatomidae aedes UnionTarget:data/mmseqs_clusters/dedup/union_dedup.fasta Time:0s Mem:7768kB Date:2026-09-19 01:21:24
+

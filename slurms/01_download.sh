@@ -15,7 +15,7 @@
 #SBATCH --open-mode=append
 
 ###################################### initialization
-OUTDIR="data/UniProtKB"
+OUTDIR="data/raw_seqs/"
 CONFIG="config/query_configs.tsv"
 START_TIME=$(date +%s)
 mkdir -p logs "${OUTDIR}"
