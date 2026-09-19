@@ -1,15 +1,60 @@
-  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 19.86it/s]100%|██████████| 2/2 [00:00<00:00, 19.82it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 20.21it/s]
 /orfeo/cephfs/scratch/area/ssenci/senci_projects/ESMC-crisis/src/scanpy_clusters.py:56: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
   adata = ad.concat(adatas, join="outer") if len(adatas) > 1 else adatas[0]
-Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.12it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.29it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.12it/s]
-[PYTHON-INFO] 2026-09-19 19:47:11 69.87s 1185.33MB
-  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 21.08it/s]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:633: RuntimeWarning: invalid value encountered in log2
+  self.stats[group_name, "logfoldchanges"] = np.log2(
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:609: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "scores"] = scores[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:612: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "pvals"] = pvals[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:622: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "pvals_adj"] = pvals_adj[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:633: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "logfoldchanges"] = np.log2(
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:607: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "names"] = self.var_names[global_indices]
+[DATA-SHAPE] Initial data shape: (42512, 960)
+[DATA-SHAPE] Operating in full-space dimensions: 960
+[METRIC] Silhouette Score (Full space): -0.2701
+Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.08it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.28it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.06it/s]
+[PYTHON-INFO] 2026-09-19 20:16:02 106.86s 2438.23MB
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 20.57it/s]
 /orfeo/cephfs/scratch/area/ssenci/senci_projects/ESMC-crisis/src/scanpy_clusters.py:56: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
   adata = ad.concat(adatas, join="outer") if len(adatas) > 1 else adatas[0]
-Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.29it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.39it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.38it/s]
-[PYTHON-INFO] 2026-09-19 19:48:20 66.31s 1159.09MB
-  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 19.13it/s]100%|██████████| 2/2 [00:00<00:00, 18.58it/s]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:633: RuntimeWarning: invalid value encountered in log2
+  self.stats[group_name, "logfoldchanges"] = np.log2(
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:609: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "scores"] = scores[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:612: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "pvals"] = pvals[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:622: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "pvals_adj"] = pvals_adj[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:633: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "logfoldchanges"] = np.log2(
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:607: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "names"] = self.var_names[global_indices]
+[DATA-SHAPE] Initial data shape: (40314, 960)
+[DATA-SHAPE] Operating in full-space dimensions: 960
+[METRIC] Silhouette Score (Full space): -0.1763
+Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.31it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.41it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.40it/s]
+[PYTHON-INFO] 2026-09-19 20:17:38 92.48s 2401.32MB
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 19.19it/s]100%|██████████| 2/2 [00:00<00:00, 19.15it/s]
 /orfeo/cephfs/scratch/area/ssenci/senci_projects/ESMC-crisis/src/scanpy_clusters.py:56: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
   adata = ad.concat(adatas, join="outer") if len(adatas) > 1 else adatas[0]
-Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.25it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.15it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.16it/s]
-[PYTHON-INFO] 2026-09-19 19:49:37 73.03s 1215.71MB
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:633: RuntimeWarning: invalid value encountered in log2
+  self.stats[group_name, "logfoldchanges"] = np.log2(
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:609: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "scores"] = scores[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:612: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "pvals"] = pvals[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:622: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "pvals_adj"] = pvals_adj[global_indices]
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:633: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "logfoldchanges"] = np.log2(
+/orfeo/cephfs/scratch/area/ssenci/venvs/ml_transformers/lib64/python3.13/site-packages/scanpy/tools/_rank_genes_groups.py:607: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "names"] = self.var_names[global_indices]
+[DATA-SHAPE] Initial data shape: (45148, 960)
+[DATA-SHAPE] Operating in full-space dimensions: 960
+[METRIC] Silhouette Score (Full space): -0.2226
+Saving individual plots:   0%|          | 0/2 [00:00<?, ?it/s]Saving individual plots:  50%|█████     | 1/2 [00:00<00:00,  2.33it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.21it/s]Saving individual plots: 100%|██████████| 2/2 [00:00<00:00,  2.23it/s]
+[PYTHON-INFO] 2026-09-19 20:19:27 105.97s 2465.87MB

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Processes ESMC protein embeddings, clusters them, and outputs species UMAP panels."""
+"""Process ESMC protein embeddings, cluster in full or PCA space, and extract channel markers."""
 import argparse
 import datetime
 from pathlib import Path
@@ -15,7 +15,7 @@ from tqdm import tqdm
 
 ###################################### CONFIG
 DEFAULT_OUTDIR = "data/scanpy/tmp/"
-N_PCS = 50
+N_PCS = None
 N_NEIGHBORS = 15
 LEIDEN_RES = 1.0
 PANEL_SIZE_INCHES = 2.5
@@ -35,7 +35,7 @@ def main():
     parser = argparse.ArgumentParser(description="ESMC Proteome Embedding Clustering")
     parser.add_argument("--npzs", type=str, required=True, help="Comma-separated paths to .npz files")
     parser.add_argument("--outdir", type=str, default=DEFAULT_OUTDIR, help="Base output directory")
-    parser.add_argument("--n_pcs", type=int, default=N_PCS, help="Number of PCs (0 to bypass PCA)")
+    parser.add_argument("--n_pcs", type=int, default=N_PCS, help="Number of PCs for dimensionality reduction")
     parser.add_argument("--n_neighbors", type=int, default=N_NEIGHBORS, help="Number of neighbors for KNN")
     parser.add_argument("--resolution", type=float, default=LEIDEN_RES, help="Leiden cluster resolution")
     args = parser.parse_args()
@@ -55,18 +55,47 @@ def main():
         adatas.append(adata)
     adata = ad.concat(adatas, join="outer") if len(adatas) > 1 else adatas[0]
     adata.obs_names_make_unique()
+    print(f"[DATA-SHAPE] Initial data shape: {adata.shape}")
     ###################################### PREPROCESSING
     norms = np.linalg.norm(adata.X, axis=1, keepdims=True)
     norms[norms == 0] = 1.0
     adata.X = adata.X / norms
     ###################################### CLUSTERING
-    if args.n_pcs > 0:
+    if args.n_pcs is not None and args.n_pcs > 0:
         sc.tl.pca(adata, n_comps=args.n_pcs)
+        print(f"[DATA-SHAPE] Shape after PCA (n_pcs={args.n_pcs}): {adata.obsm['X_pca'].shape}")
         sc.pp.neighbors(adata, n_neighbors=args.n_neighbors, n_pcs=args.n_pcs, metric='cosine')
     else:
+        print(f"[DATA-SHAPE] Operating in full-space dimensions: {adata.shape[1]}")
         sc.pp.neighbors(adata, n_neighbors=args.n_neighbors, use_rep='X', metric='cosine')
     sc.tl.leiden(adata, resolution=args.resolution, key_added='cluster', flavor='igraph')
     sc.tl.umap(adata)
+    if args.n_pcs is not None and args.n_pcs > 0:
+        from sklearn.metrics import silhouette_score
+        sil_score = silhouette_score(adata.obsm['X_pca'], adata.obs['cluster'], metric='cosine')
+        print(f"[METRIC] Silhouette Score (PCA space): {sil_score:.4f}")
+        with open(target_dir / "clustering_metrics.txt", "w") as f:
+            f.write(f"silhouette_score_pca: {sil_score}\n")
+    else:
+        from sklearn.metrics import silhouette_score
+        sil_score = silhouette_score(adata.X, adata.obs['cluster'], metric='cosine')
+        print(f"[METRIC] Silhouette Score (Full space): {sil_score:.4f}")
+        with open(target_dir / "clustering_metrics.txt", "w") as f:
+            f.write(f"silhouette_score_full: {sil_score}\n")
+    ###################################### MARKERS
+    sc.tl.rank_genes_groups(adata, groupby='cluster', method='wilcoxon')
+    marker_dfs = []
+    groups = adata.uns['rank_genes_groups']['names'].dtype.names
+    for group in groups:
+        df_group = pd.DataFrame({
+            'cluster': group,
+            'channel': adata.uns['rank_genes_groups']['names'][group],
+            'score': adata.uns['rank_genes_groups']['scores'][group],
+            'pvals_adj': adata.uns['rank_genes_groups']['pvals_adj'][group]
+        })
+        marker_dfs.append(df_group)
+    marker_df = pd.concat(marker_dfs, ignore_index=True)
+    marker_df.to_csv(target_dir / "channel_importance_rankings.csv", index=False)
     ###################################### PLOTTING
     species_list = adata.obs['species'].unique()
     umap_coords = adata.obsm['X_umap']
@@ -123,10 +152,10 @@ def main():
     for sp in species_list:
         (target_dir / f"umap_{sp}.png").unlink(missing_ok=True)
     ###################################### SAVE_RESULTS
-    adata.obs[['protein_id', 'species', 'cluster']].to_csv(target_dir / "protein_clusters.csv", index=False)
+    adata.obs[['protein_id', 'species', 'cluster']].to_csv(target_dir / "protein_clusters_metadata.csv", index=False)
     if len(npz_files) > 1:
         enrichment = cluster_sp_frac * 100
-        enrichment.to_csv(target_dir / "species_cluster_enrichment.csv")
+        enrichment.to_csv(target_dir / "species_cluster_enrichment_fraction.csv")
     ###################################### LOGGING
     max_mem = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024
     exec_time = time.time() - start_time
